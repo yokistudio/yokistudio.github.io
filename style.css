@@ -1,0 +1,16 @@
+body{
+h1 {
+	font-family: Arial, sans-serif;
+	font-weight:normal;
+	}
+}
+.box{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+	padding-left: 100px;
+}
+}
