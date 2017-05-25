@@ -1,97 +1,132 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:300,500,600|Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+
+adida
+*{padding:0;
+margin:0;
+box-sizing:border;
+}
+
+body{font-size: : 16px; <!--16px + 1 em-->
+}
+
+header{background-color: orange;
+}
+
+#wrapper{width:1080px;
+		margin:auto; 
+		background-color:grey;
+		border:5px black;
+	}
+
+nav{text-align: center; 
+	background-color: purple;
+	}
+
+a{font-family:"Abel"; 
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left:10px;
+	margin-right:10px;
+	color:black;
+	width:100%;
+}
+
+.topanchor:{text-align:center;}
+
+nav a.hover{color: blue;
+}
+
+hr{margin-top:2.5em;
+	margin-bottom:2.5em;
+	;}
+
+.thumbnail{
+	width:250px;
+	height:320px;
+	margin:auto;
+	display:inline-block;  
+}
+
+.full{
+	height:500px;
+	width:300px;
+}
+
+.small{
+	height:100px;
+	width:100px;
+	margin:20px;
+	float:left; 
+}
+
+.thumb{
+  display: block;
+  width: 100%;
+  height: auto;
+  float:left;
+  margin-bottom:0.75em;
+}
+
+.image2{
+  display: block;
+  height: 100%;
+}
+
+aside{float:right;
+}
+span{
+	width:44em;
+	height:500px;
+	}
 
 h1 {
-	font-family:"Josefin Sans";
-	font-size:50px;
-	font-weight:thin;
-	letter-spacing: 1px;
-	padding-top: 25px;
-	padding-left: 10px;
+	font-family:"Oswald";
+	font-size:3.75em;
+	font-weight:500;
+	letter-spacing: 0.15em;
+	margin-top: 1.5em;
 	text-transform:uppercase;
-	line-height: 26.4px;
+	text-align:center;
 	}
 
-h2 {
-	font-family: "Josefin Sans";
-	font-size:20px;
-	font-weight:bold;
-	letter-spacing: 1px;
-	padding-left: 14px;
+
+h2 {font-family:"Abel";
+	font-size:2em;
+	letter-spacing:0.1em;
+	margin-top: 0.4em;
 	text-transform:uppercase;
+	text-align:center;
+	}
+
+h3 {font-family:"Abel";
+	text-transform: uppercase;
+	font-weight:400;
+	font-size: 1em;
+	padding:0.1em;
+	margin-top:2em;
+	text-align:center;
+	}
+
+h4 {font-family:"Oswald";
+	font-weight: 500;
+	font-size: 1.5em;
+	text-align: center;
 	line-height: 1em;
+	text-transform:uppercase;
 	}
 
 
-h3 {  
-	font-family:"Josefin Sans";
-	font-size:12px;
-	letter-spacing: 1px;
-	color: white;
-	background-color:rgb(210,210,210);
-	text-transform: uppercase;
-	padding-left: 5px;
-    padding-right: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-	}
-
-h4{font-family:"Josefin Sans";
-	font-size:20px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	line-height:1em;
+p{font-family:"Abel";
+font-size: 1em;
+line-height:1.5em;
+text-align: left;
+margin:2em;
 }
 
-h5 {
-	font-family: "Josefin Sans";
-	font-size:30px;
-	font-weight:bold;
-	letter-spacing: 1px;
-	padding-left: 14px;
-	text-transform:uppercase;
-	line-height: 1em;
-	}
 
-p{ font-family: georgia;
-	line-height:2em;
-	margin: 15px;
-	max-width: 700px;
- }
 
-br{ line-height: 10.4px;
-	padding-bottom: 20px;
-}
 
-ul {font-family:"Josefin Sans";
-	text-transform:uppercase;
-	text-align:left;
-	list-style-type: none;
-    margin: 20px;
-    padding:0px;
-    width: 100%;
-	float: left;
-	display: table-cell;
-	}
-
-#nav li {float: left; }
-
-div {
-	width:250px;
-	height:325px;
-	display:inline-block;
-	background-color:white;
-	padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
-	}
-
-img{
-    width:250px;
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
-	}
