@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:300,500,600|Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border;
+}
+
+body{
+	font-size: 16px; <!--16px + 1 em-->
+}
+
+.navlink{padding-left:20px;}
+
+#wrapper{
+	width:1024px;
+	margin:auto;
+	margin-top: 40px; 
+	}
+
+
+.titlelink {font-family:"Oswald";
+			font-weight: 500;
+			font-size: 1.7em;
+			text-align: center;
+			line-height: 0.5em;
+			text-transform:uppercase;
+			margin:auto;
+			float:none;
+			}
+
+nav{width:50%;
+	height:40px;
+	float:right;
+	vertical-align: bottom;
+}
+
+a{font-family:"Abel"; 
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height:40px;
+  float:right;
+  padding-top:15px;
+}
+
+a:visited{color:black;}
+
+a:hover{color:#FF69B4;
+}
+
+hr{width:100%;
+   clear:both;
+   margin-top:0.3em;
+   margin-bottom:30px;
+}
+
+main {
+	text-align:center;
+}
+
+/* MAIN THUMBS */
+.thumbnail{
+	width:29%;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+	display:inline-block; 
+	vertical-align: top; 
+}
+
+.thumb{
+  display: block;
+  width: 100%;
+  height: auto;
+  float:left;
+  margin-bottom:0.75em;
+}
+
+h1 {
+	font-family:"Oswald";
+	font-size:3em;
+	letter-spacing: 0.035em;
+	font-weight:500;
+	margin-top: 0.3em;
+	margin-bottom: 0.2em;
+	text-transform:uppercase;
+	text-align:left;
+	}
+
+
+h2 {font-family:"Abel";
+	font-size:1.75em;
+	letter-spacing:0em;
+	text-transform:uppercase;
+	display:block;
+	width:50%;
+	float:left;
+	}
+
+h3 {font-family:"Abel";
+	text-transform: uppercase;
+	font-weight:400;
+	font-size: 1em;
+	margin-top:10px;
+	text-align:center;
+	margin:auto;
+	padding:none;
+	}
+
+#about{width:70%;}
+
+
+footer{ clear:both;
+		text-align:center; 
+		text-decoration:none;}
+
+#backtotop{
+	       margin:0px;
+		   float:none;
+		   text-align:center;}
+
+
+/* LEFT BLOCK DESCRIPTION */
+.project{  
+		width:47.5%;
+		height:40em;
+		display:block;
+		float:left;
+		margin:auto;
+		margin-bottom: 50px
+		}
+
+
+/* TAB BAR */
+
+.tabbar{display:block; 
+		float:left;
+		vertical-align:top; 
+		margin-bottom: 10px;
+		}
+
+.tabs{font-family:"Abel"; 
+ 	  text-transform: uppercase;
+ 	  text-decoration: none;
+ 	  font-size:20px;
+ 	  display:block;
+ 	  color:black;
+ 	  padding-left: 20px;
+ 	  padding-top: 0px;
+ 	  float:left;
+ 	  margin:0px;
+	  }
+
+.back{height:20px;
+      display:block;
+      float:left;
+      padding: 0px;
+      margin:0px;
+	  }
+
+.info{clear:both;
+	  vertical-align:top; 
+	 }
+
+h5 {font-family:"Oswald";
+	font-weight: 500;
+	font-size: 2em;
+	text-align: left;
+	text-transform:uppercase;
+	border-bottom: 2px solid black;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.6em;
+	}
+
+p{font-family:"Abel";
+font-size: 1em;
+line-height:1.5em;
+text-align: left;
+width:100%;
+}
+
+/*RIGHT BLOCK DECRIPTION*/
+
+#images{width:49.5%;
+		height:41em;
+		display:block;
+		float:right;
+		margin-bottom: 50px;
+	    }
+
+/*#main{height:50px;
+	  background-color:pink;
+	  display:block;*/
+
+#main{width:99%;
+	  height:500px;
+	  margin-bottom:20px ;
+	  }
+
+.image2{height:100%;
+		width:auto;
+		}
+
+.image3{height:auto;
+		width:100%;
+		}
+
+#thumbs{width:99%;
+	    height:130px;
+	    margin:auto;
+	    vertical-align: bottom;}
+
+#boo{width:27%;
+	 height:128px;
+	 margin-right:10px;
+	 margin-left:10px;
+	 display:inline-block;
+	 }
+
+#boo2{width:19%;
+	 height:128px;
+	 margin-right:10px;
+	 margin-left:10px;
+	 display:inline-block;
+	 } 
+
+/*ABOUT PAGE*/
+.aboutbreak{ margin: 20px; }
+
+h6 {font-family:"Oswald";
+	font-weight: 500;
+	font-size: 2em;
+	text-align: left;
+	text-transform:uppercase;
+    margin-bottom: 0.6em;
+	margin-bottom: 0.3em;
+}
+
+
+.clearfix.after{
+	visibility: hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	height: 0;
+}
+}
+
+
+
